@@ -50,7 +50,7 @@ header{
     background: #35424a;
     color: #ffffff;
     padding: 30px;
-    min-height: 70px;
+    min-height: 40px;
     border-bottom: #e8491d 3px solid;
 }
 
@@ -142,9 +142,20 @@ header a:hover{
 
     #boxes{
         margin-top: 20px;
+        align-self: center;
     }
 
-    #boxes .box{
+    #boxes .box_1{
+        float: left;
+        width:30%;
+        padding: 10px
+    }
+
+    #boxes .box img{
+        width: 60px;
+    }
+
+    #boxes .box_2{
         float: left;
         width:30%;
         padding: 10px
@@ -154,11 +165,18 @@ header a:hover{
         width: 90px;
 
     }
-
+    #boxes .box_3{
+        float: right;
+        width:30%;
+        padding: 10px
+    }
     footer{
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
     background-color: #e8491d;
     text-align: center;
+}
+#showing{
+    display: hidden;
 }
